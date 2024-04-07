@@ -4599,7 +4599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.cdebyte.com/products/E22-900M22S"
 			(at 151.13 113.03 0)
 			(effects
 				(font
@@ -4608,7 +4608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ebyte TCXO 22dBm 6500m SX1262 900Mhz New LoRa Module SMD Wireless Transceiver Module"
 			(at 151.13 113.03 0)
 			(effects
 				(font
