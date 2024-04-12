@@ -1896,18 +1896,6 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "todo:\n\nconfirm pin spacing for breadboard\nconfirm hole size for antenna\nconfirm keepout zone for antenna\nconfirm push-buttom footprint"
-		(at 175 115 0)
-		(layer "F.SilkS")
-		(uuid "b46e798f-dc9f-4d51-9ce9-920fea600158")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
