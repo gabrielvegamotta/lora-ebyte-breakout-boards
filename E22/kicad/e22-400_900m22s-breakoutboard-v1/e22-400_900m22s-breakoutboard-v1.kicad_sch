@@ -2448,6 +2448,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 132.08) (xy 109.22 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2516ed7c-f945-4d84-bacf-028684a59b3b")
+	)
+	(wire
+		(pts
 			(xy 237.49 125.73) (xy 240.03 125.73)
 		)
 		(stroke
@@ -2798,6 +2808,26 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 115.57) (xy 138.43 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b4a0617-bd81-4d7e-a018-19ac76bea0e8")
+	)
+	(wire
+		(pts
+			(xy 109.22 123.19) (xy 109.22 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d845790-b47a-4de2-b7f4-ae764b6f79f2")
+	)
+	(wire
+		(pts
 			(xy 241.3 130.81) (xy 237.49 130.81)
 		)
 		(stroke
@@ -2985,16 +3015,6 @@
 			(type default)
 		)
 		(uuid "d75bef4a-1bd2-4d11-9d23-14b95d9cf2e7")
-	)
-	(wire
-		(pts
-			(xy 124.46 115.57) (xy 138.43 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9e173c8-7459-47e7-918c-91526cc370e4")
 	)
 	(wire
 		(pts
@@ -3933,6 +3953,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 109.22 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4af9a97e-31f8-49b6-b111-c90f3fd56b21")
+		(property "Reference" "R2"
+			(at 111.76 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 111.76 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 107.442 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0596f39a-2adb-4a69-a62b-3a5a5a25a3c6")
+		)
+		(pin "2"
+			(uuid "2e2d769f-9516-4fa6-8bf9-0aafee9629b6")
+		)
+		(instances
+			(project "e22-400_900m22s-breakoutboard-v1"
+				(path "/eae8c580-921f-4660-b7f3-aa219f730519"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 109.22 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ff91aa4-1b3d-4eb5-9dec-c55ac6ff43ee")
+		(property "Reference" "D2"
+			(at 113.03 128.5874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_BUSY"
+			(at 113.03 131.1274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 109.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 109.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b437865-e178-4132-a0d4-7e088f813d9b")
+		)
+		(pin "1"
+			(uuid "aebf0fca-4338-42ca-9a48-817ff3469676")
+		)
+		(instances
+			(project "e22-400_900m22s-breakoutboard-v1"
+				(path "/eae8c580-921f-4660-b7f3-aa219f730519"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 219.71 97.79 0)
 		(unit 1)
@@ -4057,6 +4217,71 @@
 			(project "e22-400_900m22s-breakoutboard-v1"
 				(path "/eae8c580-921f-4660-b7f3-aa219f730519"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7acb93f2-61e1-4b62-8e56-2976229ff28d")
+		(property "Reference" "#PWR010"
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75a38339-eec5-4464-ad32-e9f1ad3e7e7c")
+		)
+		(instances
+			(project "e22-400_900m22s-breakoutboard-v1"
+				(path "/eae8c580-921f-4660-b7f3-aa219f730519"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
