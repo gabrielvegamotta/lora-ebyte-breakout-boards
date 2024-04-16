@@ -593,7 +593,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "/home/gabriel-vega/Desktop/Personal/template_esquematico_gabrielvega.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "../../pdfs/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
