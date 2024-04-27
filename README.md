@@ -7,7 +7,7 @@ This project came to be when I was trying/experimenting with LoRa for the first 
 
 ### Versions
 
- - [E22 Series]()
+ - [E22 Series](https://github.com/gabrielvegamotta/lora-ebyte-breakout-boards/tree/main/E22)
 
 ### References
 
