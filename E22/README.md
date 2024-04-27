@@ -20,9 +20,8 @@ Completed Version:
 
 Just the Headers Version:
 
-- [Schematic]()
+- [Schematic](https://github.com/gabrielvegamotta/lora-ebyte-breakout-boards/blob/main/E22/pdfs/SCH-e22-400_900m22s-breakoutboard-v1.pdf)
 - [Layout](https://github.com/gabrielvegamotta/lora-ebyte-breakout-boards/blob/main/E22/pdfs/PCB-e22-400_900m22s-breakout-justheaders.pdf)
-- [BOM]()
 
 
 ### PCB Assembled
